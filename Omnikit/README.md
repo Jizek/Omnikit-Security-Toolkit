@@ -46,6 +46,18 @@
 
 ---
 
+## 📸 Interface Preview / Arayüz Önizleme
+
+<div align="center">
+
+<img src="assets/screenshot.png" alt="Omnikit Interface" width="800"/>
+
+*Omnikit's intuitive terminal interface with 54+ security tools / Omnikit'in 54+ güvenlik aracı içeren sezgisel terminal arayüzü*
+
+</div>
+
+---
+
 <a name="turkish"></a>
 
 ## 🇹🇷 Türkçe
