@@ -1,0 +1,28 @@
+# Omnikit Security Toolkit - Requirements
+# Python 3.6+
+
+# Core Dependencies
+requests>=2.25.0
+beautifulsoup4>=4.9.0
+lxml>=4.6.0
+
+# Network & Web Security
+urllib3>=1.26.0
+dnspython>=2.1.0
+
+# Automation & GUI
+pyautogui>=0.9.52
+pynput>=1.7.3
+
+# Phone Number Analysis
+phonenumbers>=8.12.0
+
+# System & Platform
+psutil>=5.8.0
+
+# Optional Dependencies (for specific tools)
+# Uncomment if needed:
+# pillow>=8.0.0          # For image manipulation
+# cryptography>=3.4.0    # For advanced encryption
+# scapy>=2.4.5          # For packet manipulation
+# paramiko>=2.7.0       # For SSH operations
