@@ -19,12 +19,15 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
 # Virtual Environment
 venv/
 ENV/
 env/
 .venv
+env.bak/
+venv.bak/
 
 # IDE
 .vscode/
@@ -32,21 +35,27 @@ env/
 *.swp
 *.swo
 *~
+.project
+.pydevproject
+.settings/
 
 # OS
 .DS_Store
 Thumbs.db
 desktop.ini
+*.bak
 
 # Logs
 *.log
 logs/
+*.log.*
 
 # Temporary files
 *.tmp
 *.temp
 temp/
 tmp/
+*.cache
 
 # Sensitive data
 *.key
@@ -54,10 +63,16 @@ tmp/
 *.crt
 config.ini
 secrets.txt
+hesaplar.txt
+sifreler.txt
+admin_list.txt
 
 # Test files
 test_*.py
 *_test.py
+.pytest_cache/
+.coverage
+htmlcov/
 
 # Kiro specific
 .kiro/
@@ -66,3 +81,14 @@ test_*.py
 output/
 results/
 captures/
+*.pcap
+*.cap
+
+# Backup files
+*_backup.py
+*_old.py
+*.backup
+
+# Documentation build
+docs/_build/
+site/
